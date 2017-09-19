@@ -16,12 +16,11 @@ public class MyDraw {
     o.showWelcome();
 
     JPanel panel = new JPanel();
-    panel.add(new JButton("Venus"));
-    panel.add(new JButton("Jupiter"));
     panel.add(new JButton("Mars"));
     panel.add(new JButton("Jupiter"));
 
     JFrame frame = new JFrame();
+    frame.add(new JButton("Venus"), BorderLayout.NORTH);
     frame.add(panel, BorderLayout.CENTER);
     frame.add(new JButton("Pluto"), BorderLayout.SOUTH);
     frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);

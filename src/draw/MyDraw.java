@@ -23,6 +23,7 @@ public class MyDraw {
     frame.add(new JButton("Venus"), BorderLayout.NORTH);
     frame.add(panel, BorderLayout.CENTER);
     frame.add(new JButton("Pluto"), BorderLayout.SOUTH);
+    frame.add(new JButton("Mercury"), BorderLayout.EAST);
     frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
     frame.setTitle("练习使用JFrame");
     frame.pack();

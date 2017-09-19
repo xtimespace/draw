@@ -11,6 +11,13 @@ public class MyDraw {
   public static void main(String[] args) {
     MyDraw o = new MyDraw();
     o.showWelcome();
+
+    JFrame frame = new JFrame();
+    frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+    frame.setTitle("练习使用JFrame");
+    frame.pack();
+    frame.setVisible(true);
+    frame.repaint();
   }
 
 }
